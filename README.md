@@ -103,10 +103,17 @@ AI-Learning-Assistant/
 - MongoDB (Local or Atlas URI)
 - Groq API Key (for AI features)
 
-### 1. Clone the Repository
+### 1. Set Up the Project
+Create a folder for the project and clone both repositories:
 ```bash
-git clone <repository-url>
+mkdir AI-Learning-Assistant
 cd AI-Learning-Assistant
+
+# Clone Frontend
+git clone https://github.com/Divyanshu1121/AI-Learning-Assistant---Frontend.git frontend
+
+# Clone Backend
+git clone https://github.com/Divyanshu1121/AI-Learning-Assistant---Backend.git backend
 ```
 
 ### 2. Backend Setup
@@ -151,4 +158,3 @@ http://localhost:5173
 ---
 
 Made with ❤️ by the Patel Divyanshu .M. .
-# LearnifyAI---AI-Learning-Assistant-
